@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Naufal Adil Bayant</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brandBlue: '#6a8aff',
+                        brandMint: '#b2fbff',
+                        darkCharcoal: '#0F172A',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-brandBlue to-brandMint text-darkCharcoal min-h-screen antialiased selection:bg-brandBlue selection:text-white font-sans">
+
+    <nav class="fixed w-full z-50 glass-nav top-0 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-5xl font-normal text-darkCharcoal font-['Pinyon_Script']">
+                        Adil<span class="text-white">.</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8 items-center font-medium text-sm uppercase tracking-wider">
+                    <a href="#portfolio" class="text-darkCharcoal hover:text-white transition-colors">Portfolio</a>
+                    <a href="#skills" class="text-darkCharcoal hover:text-white transition-colors">Skills</a>
+                    <a href="#contact" class="px-5 py-2.5 rounded-full bg-darkCharcoal text-white hover:bg-slate-800 transition-transform transform hover:scale-105 shadow-md">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <a href="#contact" class="px-4 py-2 rounded-full bg-darkCharcoal text-white text-xs font-bold uppercase tracking-wider">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative pt-36 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="space-y-6 order-2 lg:order-1 lg:col-span-7">
+                    <div class="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-darkCharcoal uppercase bg-white/50 rounded-full border border-white/60">
+                        Finance & Administrative Officer
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-6xl font-bold leading-tight text-darkCharcoal font-poppins tracking-tight">
+                        Naufal Adil <br /> Bayant
+                    </h1>
+                    
+                    <p class="text-lg text-slate-800 max-w-xl leading-relaxed">
+                        Optimizing organizational efficiency through <span class="font-bold underline decoration-white decoration-2">zero-error financial bookkeeping</span>, expert corporate correspondence, and data-driven spreadsheet automation.
+                    </p>
+                    
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="#contact" class="inline-flex items-center px-8 py-4 text-white bg-darkCharcoal rounded-xl shadow-lg hover:bg-slate-800 hover:shadow-xl transition-all duration-300 group font-semibold">
+                            <span>Get In Touch</span>
+                            <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="#portfolio" class="inline-flex items-center px-8 py-4 bg-white/40 text-darkCharcoal rounded-xl border border-white/40 hover:bg-white/60 transition-all duration-300 font-semibold">
+                            <span>View Projects</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="order-1 lg:order-2 lg:col-span-5 flex justify-center lg:justify-end">
+                    <div class="relative w-72 h-72 lg:w-[420px] lg:h-[420px] flex items-end justify-center">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-brandMint to-white rounded-full blur-3xl opacity-40 bottom-10"></div>
+                        
+                        <img 
+                            src="assets/images/foto.png" 
+                            alt="Naufal Adil Bayant Profile" 
+                            class="relative w-full h-auto object-contain hero-image-float drop-shadow-[0_25px_25px_rgba(0,0,0,0.15)] z-10"
+                        >
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="portfolio" class="py-24 bg-white/20">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-700 bg-white/40 px-3 py-1 rounded-full">Proven Track Records</span>
+                    <h2 class="text-4xl font-bold text-darkCharcoal font-poppins mt-3">Selected Projects</h2>
+                    <div class="w-16 h-1 bg-darkCharcoal mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <div class="space-y-12">
+                    <div class="glass-card rounded-3xl p-8 lg:p-10 flex flex-col lg:flex-row gap-8 items-center hover:shadow-xl transition-all duration-300">
+                        <div class="lg:w-1/3 flex flex-col items-center lg:items-start text-center lg:text-left">
+                            <div class="w-16 h-16 rounded-2xl bg-darkCharcoal text-white flex items-center justify-center mb-4 shadow-md">
+                                <i class="fa-solid fa-chart-pie text-2xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-darkCharcoal font-poppins">Accounting & Financial Statement</h3>
+                            <p class="text-xs font-bold text-slate-600 mt-1 uppercase tracking-wider">Full Cycle Ledger</p>
+                        </div>
+                        <div class="lg:w-2/3 flex flex-col justify-between h-full space-y-6">
+                            <p class="text-slate-700 text-sm leading-relaxed">
+                                Penyusunan siklus akuntansi penuh secara komprehensif mulai dari analisis transaksi bisnis, penguasaan aturan debit-kredit mutlak, pembuatan jurnal umum/khusus, buku besar (*General Ledger*), neraca lajur (*Work Sheet*), hingga laporan posisi keuangan akhir seperti laporan laba rugi, neraca saldo, dan rekonsiliasi bank hulu-hilir dengan tingkat akurasi 100% (*zero-error*).
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Bookkeeping</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Bank Reconciliation</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">P&L Reports</span>
+                            </div>
+                            <a href="https://drive.google.com/drive/folders/1yu3uX7cJevQ73N9GYu553tYcSFE8PZIW?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-darkCharcoal text-white hover:bg-slate-800 transition-colors text-sm font-semibold w-full sm:w-auto self-start">
+                                <span>Buka Direktori Proyek Akuntansi</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-3xl p-8 lg:p-10 flex flex-col lg:flex-row gap-8 items-center hover:shadow-xl transition-all duration-300">
+                        <div class="lg:w-1/3 flex flex-col items-center lg:items-start text-center lg:text-left">
+                            <div class="w-16 h-16 rounded-2xl bg-darkCharcoal text-white flex items-center justify-center mb-4 shadow-md">
+                                <i class="fa-solid fa-code text-2xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-darkCharcoal font-poppins">Pivot & Google Apps Script</h3>
+                            <p class="text-xs font-bold text-slate-600 mt-1 uppercase tracking-wider">Data Analytics & Automation</p>
+                        </div>
+                        <div class="lg:w-2/3 flex flex-col justify-between h-full space-y-6">
+                            <p class="text-slate-700 text-sm leading-relaxed">
+                                Transformasi data mentah berskala besar menjadi sistem informasi yang bernilai strategis dan mudah dibaca oleh jajaran manajemen. Memanfaatkan teknik *Pivot Table Masterclass (Level 1-4)* untuk pembersihan data (*data cleansing*), visualisasi dasbor interaktif, serta implementasi kustomisasi pemrograman otomatisasi alur kerja birokrasi harian via *Google Apps Script (GAS)*.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Pivot Table Level 4</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Google Apps Script</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Dashboard BI</span>
+                            </div>
+                            <a href="https://drive.google.com/drive/folders/1RcFVMiRxyhsKXZrfzcl0PhcQ221XYd2o?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-darkCharcoal text-white hover:bg-slate-800 transition-colors text-sm font-semibold w-full sm:w-auto self-start">
+                                <span>Buka Direktori Otomasi & Pivot</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-3xl p-8 lg:p-10 flex flex-col lg:flex-row gap-8 items-center hover:shadow-xl transition-all duration-300">
+                        <div class="lg:w-1/3 flex flex-col items-center lg:items-start text-center lg:text-left">
+                            <div class="w-16 h-16 rounded-2xl bg-darkCharcoal text-white flex items-center justify-center mb-4 shadow-md">
+                                <i class="fa-solid fa-file-invoice text-2xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-darkCharcoal font-poppins">Business Correspondence</h3>
+                            <p class="text-xs font-bold text-slate-600 mt-1 uppercase tracking-wider">Bilingual Documentation</p>
+                        </div>
+                        <div class="lg:w-2/3 flex flex-col justify-between h-full space-y-6">
+                            <p class="text-slate-700 text-sm leading-relaxed">
+                                Penguasaan penuh terhadap tata naskah dokumentasi formal beralur ganda, baik untuk keperluan komersial eksternal perusahaan (surat penawaran, *Purchase Order*, nota logistik, *invoicing*) maupun administrasi birokrasi kedinasan/instansi resmi (nota dinas, surat keputusan, kontrak ketenagakerjaan HRD, dan MoU) secara aktif dalam Bahasa Indonesia baku (EYD) dan Bahasa Inggris Bisnis Profesional.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Corporate Letters</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Bilingual (EN/ID)</span>
+                                <span class="px-3 py-1 bg-white/50 border border-white/60 rounded-full text-xs font-semibold">Legal & HRD Drafting</span>
+                            </div>
+                            <a href="https://drive.google.com/drive/folders/1WIJ2i7JlqKJu5CNDiFKeYkl-U3-zgoIw?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-darkCharcoal text-white hover:bg-slate-800 transition-colors text-sm font-semibold w-full sm:w-auto self-start">
+                                <span>Buka Direktori Korespondensi Bisnis</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-24">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-darkCharcoal font-poppins">Core Competencies</h2>
+                    <div class="w-16 h-1 bg-darkCharcoal mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+                    <div class="glass-card rounded-3xl p-8 flex flex-col items-center justify-center text-center md:col-span-5 shadow-sm">
+                        <div class="w-16 h-16 rounded-full bg-white/40 flex items-center justify-center mb-6 shadow-inner">
+                            <i class="fa-solid fa-keyboard text-2xl text-darkCharcoal"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-darkCharcoal font-poppins mb-6">High-Speed Typing Mastery</h3>
+                        
+                        <div class="w-full space-y-6">
+                            <div>
+                                <div class="text-4xl font-bold text-darkCharcoal font-poppins">45 WPM</div>
+                                <div class="text-xs font-bold uppercase text-slate-600 tracking-wider mt-1">Text Typing Speed</div>
+                            </div>
+                            <div class="w-2/3 h-px bg-slate-300/60 mx-auto"></div>
+                            <div>
+                                <div class="text-4xl font-bold text-darkCharcoal font-poppins">200 CPM</div>
+                                <div class="text-xs font-bold uppercase text-slate-600 tracking-wider mt-1">Numerical Data Input</div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 px-4 py-1.5 bg-emerald-500 text-white text-xs font-bold rounded-full uppercase tracking-widest shadow-sm">
+                            98% - 100% Accuracy
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-3xl p-8 md:col-span-7 flex flex-col justify-center space-y-6">
+                        <h3 class="text-xl font-bold text-darkCharcoal font-poppins mb-2"><i class="fa-solid fa-layer-group mr-2 opacity-70"></i>Professional Proficiency</h3>
+                        
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm font-bold tracking-tight">
+                                <span>Advanced Spreadsheet (Excel Masterclass Level 4)</span>
+                                <span>Level 4 - Mastery</span>
+                            </div>
+                            <div class="w-full h-3 bg-white/40 rounded-full p-0.5 shadow-inner">
+                                <div class="h-full bg-darkCharcoal rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm font-bold tracking-tight">
+                                <span>Full-Cycle Accounting & Financial Checking</span>
+                                <span>Level 3 - Skillful</span>
+                            </div>
+                            <div class="w-full h-3 bg-white/40 rounded-full p-0.5 shadow-inner">
+                                <div class="h-full bg-darkCharcoal rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm font-bold tracking-tight">
+                                <span>Bilingual Corporate Correspondence (EN / ID)</span>
+                                <span>Level 3 - Skillful</span>
+                            </div>
+                            <div class="w-full h-3 bg-white/40 rounded-full p-0.5 shadow-inner">
+                                <div class="h-full bg-darkCharcoal rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-sm font-bold tracking-tight">
+                                <span>Workplace Automation (Google Apps Script)</span>
+                                <span>Level 2 - Fundamental</span>
+                            </div>
+                            <div class="w-full h-3 bg-white/40 rounded-full p-0.5 shadow-inner">
+                                <div class="h-full bg-darkCharcoal rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-darkCharcoal text-white pt-24 pb-12 relative overflow-hidden">
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-brandBlue/10 blur-[120px] rounded-full"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-brandMint">Let's Connect</span>
+                <h2 class="text-4xl font-bold font-poppins mt-2 mb-4">Mulai Kolaborasi Profesional</h2>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Siap membantu merapikan administrasi, mengotomasi pengolahan data, serta menyusun laporan keuangan entitas bisnis Anda secara presisi.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-20">
+                <a href="https://wa.me/6281367452910" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-emerald-600/20 hover:border-emerald-500/40 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-whatsapp text-2xl text-emerald-400"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400">WhatsApp</span>
+                    <span class="text-sm font-medium mt-1">0813-6745-2910</span>
+                </a>
+
+                <a href="mailto:adilbayant@gmail.com" class="flex flex-col items-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-brandBlue/20 hover:border-brandBlue/40 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-envelope text-2xl text-blue-400"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Email Direct</span>
+                    <span class="text-sm font-medium mt-1">adilbayant@gmail.com</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/adilbayant/" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-sky-600/20 hover:border-sky-500/40 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-linkedin-in text-2xl text-sky-400"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400">LinkedIn</span>
+                    <span class="text-sm font-medium mt-1">in/adilbayant</span>
+                </a>
+            </div>
+
+            <div class="border-t border-white/10 pt-10 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 space-y-4 sm:space-y-0">
+                <p>© 2026 Naufal Adil Bayant. All Rights Reserved.</p>
+                <div class="flex space-x-6">
+                    <span>Palembang, Indonesia</span>
+                    <span class="font-medium text-slate-400">Business Administration Student</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
